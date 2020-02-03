@@ -1,0 +1,16 @@
+A new repo from an existing project
+    Go into the directory containing the project.
+    Type git init .
+
+Dépôt Git vide initialisé dans /home/git/awr-python/.git/
+
+    Type git add to add all of the relevant files.
+    You'll probably want to create a . gitignore file right away, to indicate all of the files you don't want to track. Use git add . gitignore , too.
+    Type git commit .
+
+git remote add origin git@git.assembla.com:portfolio/space.space_name.git
+#set a new remote
+git remote -v
+#Verify new remote
+origin  git@git.assembla.com:portfolio/space.space_name.git (fetch)
+origin  git@git.assembla.com:portfolio/space.space_name.git (push)
